@@ -1,9 +1,46 @@
 /* Add styling for your page here */
-
 .App {
+    margin-left:250px;
+}
 
+.Gallery {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Gallery img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.Gallery .Info {
+    text-align:center;
+    width: 300px;
+    height:200px;
+    background-color: bisque;
+    margin-top:0px;
+    margin-bottom:20px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Gallery .Info h3 {
+    margin-block-start: 0px;
+}
+
+.Cart {
+    position: absolute;
+    top: 5%;
+    right: 30%;
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
 }
